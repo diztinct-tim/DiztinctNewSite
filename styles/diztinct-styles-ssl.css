@@ -1,0 +1,436 @@
+/* External CSS file for golfetail.mybigcommerce.com to work around 3 day wait for uploading stencil updates */
+/*http://golfetail.mybigcommerce.com/callaway-golf-womens-tech-low-cut-socks-3-pair/*/
+
+@media only screen and (-webkit-min-device-pixel-ratio: 0) and (min-width: 300px){
+
+	.part2.home-dod .card-body {
+		position: absolute !important;
+		z-index:999 !important;
+	}
+	.ProductPage .part2 .card-body {
+		position: absolute !important;
+		z-index:999 !important;
+	}
+
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 0px) {
+
+	.mob-cart-amt {
+	    width: 16px;
+	    height: 16px;
+	    background-color: #29449c;
+	    color: #fff !important;
+	    border-radius: 50%;
+	    position: absolute;
+	    top: 17px;
+	    right: 17px;
+	    line-height: 15px !important;
+	    text-align: center !important;
+	    cursor:pointer;
+	    font-weight: 400 !important;
+			font-size: 11px !important;
+	}
+	.previewCartCheckout .button.button--primary {
+		border-color: #C86400;
+		color: #FFF;
+		background-color: #F1892D;
+		box-shadow: 0px 2px 0px #C86400;
+		padding: 18px 0px;
+		font-weight: 800;
+		font-size: 20px;
+		text-transform: none !important;
+		line-height: 15px;
+		height: auto !important;
+		letter-spacing: 0 !important;
+	}
+	.previewCartCheckout .button.button--primary:hover {
+		box-shadow: none;
+		border: medium none;
+		background-color: #E88125;
+		color: #fff !important;
+		line-height:18px !important;
+	}
+	.previewCartCheckout .button.button--primary:nth-child(2) {
+		border-color: #C86400;
+		color: #FFF;
+		background-color: #999;
+		box-shadow: 0px 2px 0px #C86400;
+		padding: 18px 0px;
+		font-weight: 800;
+		font-size: 20px;
+		text-transform: none !important;
+		line-height: 15px;
+		height: auto;
+		letter-spacing: 0 !important;
+	}
+	.previewCartCheckout .button.button--primary:nth-child(2):hover {
+		box-shadow: none;
+		border: medium none;
+		background-color: #aaaaaa;
+		color: #fff !important;
+	}
+	.Shoe.Accessories .page, .Shoe.Accessories .page-heading ,.Other.Apparel .page, .Other.Apparel .page-heading {
+    	display: block !important;
+	}
+	.previewCartCheckout .button:nth-of-type(2) {
+		height: auto !important;
+		line-height:18px !important;
+	}
+  	.modal-body {
+    	padding: 5px;
+	}
+	#previewModal .productView-image img{
+		max-width: 150px;
+		display: block;
+		margin: 0px auto;
+	}
+	.Returns .page-heading::before {
+		content: '';
+	}
+	.Returns #product-listing-container {
+		padding: 0px;
+	}
+	.EasyIMG {
+		display: inline-block;
+		float: left;
+	}
+	.centered-info-img{
+		max-width:100%;
+		display:block;
+		margin:0 auto;
+	}
+	.Easy {
+		padding-left: 20px;
+		max-width: 640px;
+		display: inline-block;
+	}
+	.Easy h4 {
+		margin-top: 0px;
+	}
+	.About.Us .page {
+		padding: 20px;
+	}
+	.Shipping .page{
+		padding:20px;
+	}
+	.Returns .page{
+		padding:20px;
+	}
+	.About.Us .page-heading, .Contact.Us .page-heading, .Affiliate.Program .page-heading, .Sales .page-heading, .Testimonials .page-heading, .Privacy.Policy .page-heading{
+		padding-left: 0px;
+	}
+	.Contact.Us .page-content--centered {
+		width: 96%;
+	}
+	.Contact.Us .form-field {
+		float: left;
+		clear: both;
+	}
+	.Affiliate.Program .page {
+		padding: 20px;
+	}
+	.Sales .page {
+		padding: 20px;
+		min-height: 600px;
+	}
+	.Testimonials .page {
+		padding: 20px;
+	}
+	.Testimonials #product-listing-container li{
+		padding-top: 20px;
+	}
+	.Privacy.Policy .page {
+	padding: 20px;
+	}
+	.body .white-wrapper.cf .About.Us h5, .body .white-wrapper.cf .Contact.Us h5, .body .white-wrapper.cf .Affiliate.Program h5, .body .white-wrapper.cf .Sales h5, .body .white-wrapper.cf .Testimonials h5, .body .white-wrapper.cf .Privacy.Policy h5 {
+	text-transform: none !important;
+	letter-spacing: 0px;
+	color: #555 !important;
+	font-size: 20px !important;
+	padding-bottom: 0px !important;
+	margin-bottom: 20px !important;
+	}
+	.body .white-wrapper.cf .About.Us h4, .body .white-wrapper.cf .Contact.Us h4, .body .white-wrapper.cf .Affiliate.Program h4, .body .white-wrapper.cf .Sales h4, .body .white-wrapper.cf .Testimonials h4, .body .white-wrapper.cf .Privacy.Policy h4 {
+	text-transform: none !important;
+	letter-spacing: 0px;
+	color: #555 !important;
+	font-size: 20px !important;
+	padding-bottom: 0px !important;
+	margin-bottom: 20px !important;
+	}
+	.cat-page .body .container p {
+		padding-left: 0px;
+	}
+	#previewModal .productView {
+	display: none !important;
+	width: 100%;
+}
+#previewModal {
+	padding: 0px !important;
+}
+.modal-header-title {
+	font-size: 16px;
+	margin-top: 20px;
+	line-height: 20px;
+}
+.modal-header {
+	border-bottom: none;
+}
+.Search .nxt-nrf-container {
+	padding: 20px;
+}
+#NewBillingAddress #CheckoutStepPaymentDetails .ProductPrice, .ExpressCheckoutContent .HorizontalFormContainer dt:nth-of-type(8) {
+	font-size: 14px !important;
+}
+
+.mob-banner {
+  padding-bottom: 40px;
+  text-align: center;
+}
+.card-image {
+  max-height: 200px;
+  width: auto;
+}
+.home-new-prods > section > ul > li:nth-child(n+8) {
+  margin-top: 40px;
+}
+.home-new-prods {
+  margin-bottom: 60px !important;
+}
+.main-banner img {
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+border: 1px solid #fff;
+}
+.also-bought {
+	border-top: 1px solid #ddd;
+}
+.home-new-prods > section > ul > li:nth-child(n+3) {
+  margin-top: 40px;
+}
+.body .page-heading {
+	margin-left: 0px;
+}
+.Contact.Us #product-listing-container {
+	padding-left: 20px;
+}
+/*HIDE SEO TEXT ON MOBILE*/
+.cat-page div.body > div.container > p{
+    display: none;
+}
+.cat-page .body .container p {
+	padding-left: 10px;
+}
+.cat-page .page-heading {
+	padding-left: 10px !important;
+}
+/*.deal-of-day .part2 .card-body{
+	position:relative;
+}*/
+
+	/*TRYING TO FIX DAILY DEAL z-index*/
+	.deal-of-day .part2.home-dod .card-body {
+	    position: absolute !important;
+	    left: 50% !important;
+	    top: 128px !important;
+	}
+	.ProductPage .deal-of-day .part2 .card-body {
+	    position: absolute !important;
+	    left: 60% !important;
+	    top: 130px !important;
+	}
+
+.deal-of-day .part2 .card-body .card-title{
+	position: absolute;
+	z-index: 99;
+}
+.deal-of-day .part2 .card-body .card-text {
+    position: absolute;
+    top: 52px;
+    z-index: 99;
+}
+.Returns .page{
+	background:#fff;
+}
+.Returns .page h5{
+	text-transform: uppercase;
+    color: #29449C;
+    text-align:left;
+    font-size:20px;
+}
+.Sales.Import.Tax .page-heading {
+    padding-left: 0px !important;
+}
+.Contact.Us .page-heading{
+	padding-left:10px;
+}
+.cat-page .breadcrumbs {
+    padding-left: 10px;
+}
+.pr_review_summary {
+    margin-bottom: 40px;
+}
+
+
+
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+	.Returns .page{
+		box-shadow: 0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);
+	}
+	.cat-page .breadcrumbs {
+    	padding-left: 20px;
+	}
+	.Returns .page h5{
+	    font-size:26px;
+	}
+	#previewModal .previewCart .productView {
+	    width: calc(100% - 300px);
+	    display:inline;
+	}
+	.cat-page .page-heading {
+		padding-left: 20px !important;
+	}
+	.cat-page .body .container p {
+	  padding-left: 20px;
+	}
+	.modal-header {
+		border-bottom: 1px solid #F2F2F2;
+	}
+	#previewModal {
+		padding: 20px !important;
+	}
+	#previewModal .productView {
+		display: block !important;
+	}
+	#previewModal .previewCartCheckout {
+    	width: 300px;
+    	display:inline;
+    }
+
+    #previewModal .modal-content {
+    	max-width: 960px;
+    	margin: 0 auto;
+	}
+	#previewModal .productView-details {
+    	width: 100%;
+    	border-left: none;
+	}
+	#previewModal .previewCart .productView-image{
+		width:40%;
+	}
+	#previewModal .previewCart .productView-image img{
+		max-width:none;
+	}
+	#previewModal .productView-details {
+    	width: 60%;
+	}
+	.home-new-prods > section > ul > li:nth-child(n+3) {
+  		margin-top: 0px;
+	}
+
+	.navPages {
+    	width: 100%;
+    	max-width: 85.7143rem;
+    	font-size: 0px;
+    	text-align: center;
+    	margin: 0px auto;
+	}
+	.navPages-container {
+	    background: transparent none repeat scroll 0px 0px;
+	    display: block;
+	    height: auto;
+	    overflow-y: visible;
+	    padding: 0px;
+	    position: relative;
+	    top: auto;
+	}
+	.navPages-item {
+    	float: left;
+	}
+	.navPages-item:hover > div.navPage-subMenu > ul.navPage-subMenu-list{
+		box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12);
+		border: 1px solid rgb(221, 221, 221);
+		position: absolute;
+		/*top: -1px;*/
+		top: 21px;
+	}
+	.navPage-subMenu-action.navPages-action {
+    	text-transform: capitalize;
+    	text-align: left;
+	}
+	#mobile-menu .navPage-subMenu-list {
+    	background: #FFF none repeat scroll 0% 0%;
+	}
+	.cat-page div.body > div.container > p{
+    	display: block;
+	}
+
+	/*TRYING TO FIX DAILY DEAL TABLET*/
+	.deal-of-day .part2.home-dod .card-body {
+	    left: 75% !important;
+	    top: 0px !important;
+	}
+	.ProductPage .deal-of-day .part2 .card-body {
+    	left: 50% !important;
+    	top: 130px !important;
+	}
+	.Contact.Us .page-heading{
+		padding-left:30px;
+	}
+
+
+
+
+
+
+
+
+
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+	/*TRYING TO FIX DAILY DEAL DESKTOP*/
+	.ProductPage .deal-of-day .part2 .card-body {
+	    left: 50% !important;
+	    top: 158px !important;
+	}
+	.deal-of-day .part2.home-dod .card-body {
+    	top: 10px !important;
+	}
+
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1060px) {
+
+	.productView-images > .productView-thumbnails {
+    overflow: auto !important;
+	}
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+	.cat-page .breadcrumbs {
+    	padding-left: 0px;
+	}
+
+}

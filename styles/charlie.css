@@ -1,0 +1,958 @@
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 0px) {
+
+	.main-tagline h2, section > .section-wrap > h2 {
+		font-size: 60px;
+		line-height: 60px;
+		font-weight: 700;
+	}
+	.main-tagline > h2 {
+		margin: 0px;
+		line-height: 20px;
+		font-size: 16px;
+		font-weight:400;
+	}
+	.left-side > p, .right-side > p {
+		color: #fff;
+		line-height: 20px;
+		text-align: center;
+	}
+	.platform-list > li > a > img {
+		max-width: calc(100% - 50px) !important;
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-top: 30px;
+		margin-bottom: 10px;
+	}
+	.mobile-menu-drawer.on-screen {
+		left: 0px;
+		position: fixed;
+		overflow-y: auto;
+		z-index: 9;
+		box-shadow: 0px 0px 10px rgba(0,0,0,0.8);
+		background: #161616;
+		-webkit-transition: left 0.3s ease-out;
+		-moz-transition: left 0.3s ease-out;
+		-o-transition: left 0.3s ease-out;
+		transition: left 0.3s ease-out;
+	}
+	.help > span > a {
+    	color: #000;
+    	text-decoration: none;
+	}
+	.menu-area > ul {
+		text-align: left;
+		display: inline-block;
+		vertical-align: top;
+		padding-right: 20px;
+		padding-left: 20px;
+		width: 200px;
+		list-style: none;
+		text-decoration: none;
+	}
+	.close-menu {
+		width: 100%;
+		text-align: left;
+		display: block;
+		cursor: pointer;
+		text-transform: uppercase;
+		font-size: 20px;
+		font-weight: bold;
+		padding-left: 20px;
+	}
+	.close-text {
+		font-size: 12px;
+		font-weight: normal;
+		top: 25px;
+		left: 40px;
+		position: absolute;
+	}
+	.help {
+		height: 30px;
+		width: 60px;
+		float: right;
+		margin-top: 10px;
+		cursor: pointer;
+	}
+	.mobile-menu-btn {
+		height: 30px;
+		width: 60px;
+		float: left;
+		margin-top: 10px;
+		cursor: pointer;
+	}
+	.menu-area > ul > li > a {
+		color: #fff;
+		text-decoration: none;
+		font-size: 24px;
+		font-weight: 500;
+		line-height: 40px;
+	}
+	.menu-area > ul > ul, .menu-area > ul > ul > li {
+		list-style: none;
+		padding-left: 0px;
+	}
+	.menu-area > ul > ul {
+		margin-bottom: 30px;
+	}
+	.menu-area > ul> li {
+		list-style: none !important;
+	}
+	.menu-area > ul > li > a {
+		text-decoration: none !important;
+		line-height: 30px;
+		font-size: 16px;
+	}
+	.quote > li > a, .contact > li > a, .about > li > a, .services > li > a, .portfolio > li > a {
+		color: #fff;
+		text-decoration: none;
+		font-size: 24px;
+		line-height: 40px;		
+	}
+	.services > ul {
+		list-style: none;
+		padding-left: 0px;
+	}
+	.services > ul > li > a {
+		color: #ccc;
+		font-size: 16px;
+		line-height: 30px;
+		text-decoration: none;
+	}
+	.menu-area .portfolio {
+		display: block;
+		margin-top: 20px;
+	}
+	.help > span {
+		font-size: 12px;
+		text-transform: uppercase;
+		text-decoration: none;
+		top: 1px;
+	}
+	.mobile-menu-btn > span {
+		font-size: 12px !important;
+		text-transform: uppercase;
+		top: 1px;
+	}
+	.mobile-menu-drawer {
+		background-color: #000;
+		bottom: 0;
+		color: #fff;
+		position: fixed;
+		left: -240px;
+		top: 0;
+		transition: left 0.3s ease-out 0s;
+		width: 240px;
+		z-index: 9;
+	}
+	section > .section-wrap > h2 {
+		font-size: 30px;
+		font-weight: 700;
+		line-height: 30px;
+	}
+.dropdown a {
+	text-decoration: none;
+	color: #000;
+	line-height: 30px;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+	.desk-nav {
+		float: right;
+		text-align: right;
+		width: calc(100% - 240px);
+	}
+	header {
+		max-width: 1440px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.overview-page section p {
+	line-height: 22px;
+	color: #222;
+	margin-top: 0px;
+	font-size: 16px;
+}
+.right-side > a {
+	padding: 0;
+	border-radius: 50px;
+	font-size: 16px;
+	margin-top: 10px;
+	display: inline-block;
+	width: 160px;
+	text-align: center;
+	font-weight: 600;
+	height: 40px;
+	line-height: 40px;
+}
+.overview-page section p {
+	line-height: 20px !important;
+	color: #222;
+	margin-top: 0px;
+	font-size: 16px;
+}
+.overview-page section p span, .contact section p span {
+	font-weight: 700;
+	font-size: 20px;
+	display: block;
+	margin-bottom: 10px;
+}
+.overview-page .section-2 ul li {
+	list-style: none;
+	padding: 10px 0px;
+	display: inline-block;
+	width: 100% !important;
+	margin-left: auto;
+	margin-right: auto;
+}
+.overview-page .section-2 ul {
+	text-align: left;
+	width: 100%;
+	margin: 0 auto;
+	max-width: 660px;
+}
+.overview-page .section-2 ul li > div.right-side {
+	padding-left: 0px !important;
+	width: calc(% - 20px);
+	display: inline-block;
+	text-align: center;
+}
+.overview-page .section-2 ul li > div.right-side > p {
+    width: 80%;
+	padding-left: 10%;
+}
+.overview-page .section-2 ul li > img {
+	width: 200px;
+	display: block;
+	margin: 0 auto;
+}
+.contact .our-mission > h4, .contact .our-guarantee > h4, .contact .our-history > h4, .contact .section-3 > div > h4 {
+	font-size: 24px;
+}
+ .contact .our-guarantee > h4, .contact .our-mission > h4 {
+	margin: 50px 0px 0px 0px;
+}
+.our-guarantee {
+	margin-bottom: 0px;
+}
+.contact p {
+	margin-top: 10px;
+	line-height: 22px;
+	font-size: 16px;
+}
+.contact > .section-wrap.first-wrap {
+	position: relative;
+	top: -20px;
+}
+.contact .our-history {
+	padding: 20px 0px 40px;
+}
+.contact .section-3 h4 {
+	margin-bottom: 0px;
+}
+.contact .section-3 p {
+	margin-top: 10px !important;
+}
+.contact .section-3 {
+	padding-top: 40px;
+	padding-bottom: 60px;
+}
+.contact .section-3 .right-p span {
+	font-size: 24px;
+}
+.contact .right-p {
+	font-size: 16px !important;
+	line-height: 22px;
+}
+.contactus h2 {
+	width: 100%;
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+div.call-email-quote > ul > li > p {
+	margin: 10px;
+	font-weight: 700;
+	font-size: 30px;
+	margin-bottom: 0px;
+}
+div.call-email-quote > ul > li > span {
+	display: none;
+	margin-bottom: 15px;
+	font-size: 16px;
+	margin-top: 5px;
+}
+.contactus .get-to-work h2 {
+	margin-bottom: 5px;
+}
+div.call-email-quote > ul > li > a.linked-phone {
+	background: #ff9000;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 50px;
+	height: 40px;
+	display: block;
+	width: 100%;
+	/*max-width: 180px;*/
+	max-width: 300px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+	padding: 0px !important;
+	font-weight: 600;
+}
+div.call-email-quote > ul > li > a.linked-phone:hover {
+	background-color: #ed8500;
+}
+div.call-email-quote > ul > li > a.linked-email {
+	background: #9c27b0;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 50px;
+	height: 40px;
+	display: block;
+	width: 100%;
+	/*max-width: 180px;*/
+	max-width: 300px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+	padding: 0px !important;
+}
+div.call-email-quote > ul > li > a.linked-email:hover {
+	background-color: #9125a4;
+}
+div.call-email-quote > ul > li > a.linked-quote {
+	background: #4ab050;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 50px;
+	height: 40px;
+	display: block;
+	/*width: 100%;*/
+	max-width: 300px;
+	/*max-width: 180px;*/
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+	padding: 0px !important;
+}
+div.call-email-quote > ul > li > a.linked-quote:hover {
+	background-color: #47a64d;
+}
+div.call-email-quote > ul > li > a > img {
+	height: 140px;
+	width: 140px; 
+}
+div.call-email-quote > ul > li {
+	display: inline-block;
+	width: 66%;
+	position: relative;
+	top: 25px;
+}
+.contactus footer.contact {
+	background: #fff;
+}
+.full-container.contactus {
+	background: url('../img/old_moon.png');
+}
+.map-container, .map-container > iframe {
+	width: calc(100% - 10px);
+	max-width: 960px;
+	margin: 0 auto !important;
+	display: block;
+}
+p.copyright {
+	font-size: 12px !important;
+}
+.quote-request {
+  background: #4ab050 none repeat scroll 0 0;
+  padding: 50px 0 100px;
+}
+#name, #email, #number {
+  color: #333;
+  font-size: 14px;
+  height: 35px;
+  margin: 10px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+}
+#contactForm h5 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  text-align: center;
+  margin-top: 70px;
+}
+#form-submit {
+  background: #4ab050 none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 50px;
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 600 !important;
+  height: 60px !important;
+  line-height: 18px;
+  margin: 20px auto 100px;
+  max-width: 280px;
+  width: 100%;
+  letter-spacing: 1px;
+  text-transform:uppercase;
+  font-family: "proxima-nova", arial;
+}
+#form-submit:hover {
+  background: #47a64d none repeat scroll 0 0;
+   -o-transition:.3s;
+  -ms-transition:.3s;
+  -moz-transition:.3s;
+  -webkit-transition:.3s;
+  transition:.3s;
+}
+#message {
+  border: medium none;
+  box-shadow: none;
+  font-family: "proxima-nova",helvetica,sans-serif;
+  font-size: 16px;
+  min-height: 200px;
+  padding: 20px;
+  width: calc(100% - 40px) !important;
+}
+#contactForm h5:nth-of-type(1) {
+  margin-top: 20px;
+}
+#contactForm .form-group > h5 {
+  margin-top: 70px !important;
+}
+.project-type li, .project-cost li, .project-timeline li {
+  background: #999 none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  height: 50px;
+  line-height: 50px;
+  list-style: outside none none;
+  margin: 10px;
+  min-width: 220px;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  max-width: 280px;
+  font-weight: 600;
+  font-size: 20px;
+}
+.project-type li:hover, .project-cost li:hover, .project-timeline li:hover {
+  background: #f8981d none repeat scroll 0 0;
+      -o-transition:.3s;
+  -ms-transition:.3s;
+  -moz-transition:.3s;
+  -webkit-transition:.3s;
+  transition:.3s;
+
+}
+.project-type li.selected, .project-cost li.selected, .project-timeline li.selected {
+  background: #f8981d none repeat scroll 0 0;
+  color: #fff;
+}
+.contact .get-to-work {
+	background: #8d3f9b !important;
+}
+.overview-top {
+	background: #ef4539;
+	z-index: 0;
+	position: relative;
+}
+div.ebay-projects > ul > li > a {
+	width: 240px;
+	height: 100px;
+	left: calc(40% - 75px);
+	font-size: 30px;
+}
+div.ebay-projects > ul > li > a > span {
+	display: block;
+	margin-top: 15px;
+	font-size: 20px;
+	font-weight: 400;
+	border: 3px solid #fff;
+	border-radius: 50px;
+	padding: 0px;
+	height: 50px;
+	line-height: 50px;
+	width: 100%;
+	max-width: 200px;
+	margin: auto;
+	margin-top: 20px;
+}
+#links1 > a > img, #links2 > a > img, #links3 > a > img, #links4 > a > img, #links5 > a > img, #links6 > a > img, #links7 > a > img, #links8 > a > img, #links9 > a > img, #links10 > a > img {
+	max-width:100%;
+}
+#links1, #links2, #links3, #links4, #links5, #links6, #links7, #links8, #links9, #links10 {
+    display:block;
+    margin: 0px auto 20px;
+    width:100%;
+    margin-bottom:10px;
+}
+#links1, #links2, #links3, #links4, #links5, #links6, #links7, #links8, #links9, #links10 {
+	position:relative;
+	max-width: 467px;
+}
+#links1:hover:before, #links2:hover:before, #links3:hover:before, #links4:hover:before, #links5:hover:before, #links6:hover:before, #links7:hover:before, #links8:hover:before, #links9:hover:before, #links10:hover:before {
+    cursor:pointer;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    border-radius: 5px;
+    background: -moz-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1) );
+    background: -webkit-linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1) );
+    background: linear-gradient(rgba(0,0,0,0) , rgba(0,0,0,1));
+        -o-transition:.3s;
+  -ms-transition:.3s;
+  -moz-transition:.3s;
+  -webkit-transition:.3s;
+  transition:.3s;
+
+}
+#links1:hover > .overlay-container, #links2:hover > .overlay-container, #links3:hover > .overlay-container, #links4:hover > .overlay-container, #links5:hover > .overlay-container, #links6:hover > .overlay-container, #links7:hover > .overlay-container, #links8:hover > .overlay-container, #links9:hover > .overlay-container, #links10:hover > .overlay-container {
+	display:block;
+}
+.overlay-container {
+	cursor:pointer;
+	z-index:99;
+	display:none;
+    position: absolute;
+    top: calc(50% - 50px);
+    left: calc(50% - 100px);
+    width: 200px;
+    text-align: center;
+}
+.overlay-container > .title {
+    display: block;
+    color: #fff;
+    font-weight: 700;
+    font-size: 28px;
+}
+.overlay-container > .view-project {
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    border: 3px solid #fff;
+    border-radius: 50px;
+    padding: 0px;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    max-width: 200px;
+    margin: auto;
+    margin-top: 10px;
+    text-transform: #fff;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    width: 150px;
+    color: #fff;
+    text-transform: uppercase;
+ }
+ ol.indicator > li {
+    background: #ccc !important;
+}
+.our-history h4 {
+	margin-bottom: 0px;
+}
+
+
+
+
+
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+.contact .section-3 {
+	padding-top: 90px;
+}
+
+.overview-page .section-2 ul li > div.right-side {
+	padding-left: 20px !important;
+	text-align:left;
+}
+.overview-page .section-2 ul li > div.right-side > p {
+    width: 100%;
+    padding-left: 0;
+}
+.overview-page section p {
+	line-height: 20px !important;
+	color: #222;
+	margin-top: 0px;
+	font-size: 16px;
+	max-width: 430px;
+}
+.platform-page section h4, .platform-footer > .work-together > h2 {
+	font-size: 48px;
+	font-weight: 700;
+}
+.contact .our-history {
+	padding: 70px 0px 90px;
+}
+.our-history h4 {
+	margin-bottom: 0px;
+}
+ .contact .our-guarantee > h4, .contact .our-mission > h4 {
+	margin: 90px 0px 0px 0px;
+}
+.contact > .section-wrap.first-wrap {
+	top: -85px;
+}
+.contact p {
+	font-size: 20px;
+}
+.contact .our-mission > h4, .contact .our-guarantee > h4, .contact .our-history > h4, .contact > .section-3 > div > h4 {
+	font-size: 48px;
+}
+div.call-email-quote > ul > li > span {
+    display: block;
+    height: 45px;
+}
+div.call-email-quote > ul > li {
+	display: inline-block;
+	width: 25%;
+	position: relative;
+	top: -90px;
+	max-width:300px;
+}
+div.get-to-work > h2 {
+	font-size: 24px;
+	line-height:32px;
+}
+.shop, .mage{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+	section > .section-wrap > h2 {
+		font-size: 48px;
+		font-weight: 700;
+		line-height: 60px;
+	}
+	.overview-page .section-2.cf {
+	background: #fff;
+	padding-bottom: 100px;
+}
+.platform-page .section-4 > div.section-wrap > p {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	max-width: 720px;
+	font-size: 20px;
+	line-height: 24px;
+	color: #000;
+}
+.platform-page .section-4 ul li > p > span {
+	color: #000;
+	font-size: 20px;
+	display: block;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.platform-page .section-4 p {
+	color: #000;
+}
+	.overview-page .section-2 > div > p, .overview-page .section-3 > div > p, .contact .section-3 > div > p {
+	width: 100% !important;
+	display: block;
+	margin: 20px auto;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 50px;
+	max-width: 720px;
+	line-height: 26px !important;
+}
+.overview-page .section-2 h4, .overview-page .section-3 h4, .contact .section-3 h4 {
+	text-align: center;
+	font-size: 48px;
+	margin-top: 0px;
+}
+.full-container.overview-page .section-3 {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+	.section-2.cf > div.section-wrap > .sub-header {
+	padding-top: 100px;
+	font-size: 48px !important;
+}
+.overview-page .section-2 > div > p, .overview-page .section-3 > div > p, .contact .section-3 > div > p {
+	width: 80%;
+	display: block;
+	margin: 10px auto;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.section-2.cf .right-side span {
+	font-size: 30px !important;
+	font-weight: 600 !important;
+}
+.main-tagline > h2 {
+	font-size: 24px;
+	line-height: 32px;
+	margin: 0;
+	margin-top:10px;
+}
+	.left-side > p {
+		margin-right: 5%;
+		padding-left: 35px;
+		font-size: 20px;
+		line-height: 28px;
+	}
+	.left-side > p, .right-side > p {
+		line-height: 24px;
+		text-align: left;
+	}
+	section.two > .section-wrap > p, section.four > div > p, section.six > div > p, section.seven > div > p {
+		font-size: 20px;
+		line-height: 24px;
+		max-width: 720px;
+		text-align: center;
+		width: 100%;
+		color: #333;
+		margin:auto;
+	}
+	.test-wrap > div > span {
+		text-align: center;
+		line-height: 20px;
+		font-size: 16px;
+		font-weight: 700;
+	}
+	.test-company > div > span {
+		text-align: center;
+		line-height: 20px;
+		font-size: 16px;
+		font-weight: 400;
+	}
+	.platform-page .section-5 div > h4, .platform-page .section-7 div > h4 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.platform-page .section-7 > .section-wrap > h4 {
+	text-align: center;
+	padding-top: 0px;
+}
+.section-7.cf {
+	padding-top: 60px;
+	padding-bottom: 70px;
+}
+.section-5 h4 {
+	padding-bottom: 20px;
+}
+.platform-page .section-5 {
+	position: relative;
+	padding: 60px 0px 70px 0px;
+	background: #00a9c9;
+}
+.platform-page .section-wrap {
+	padding: 50px 0px;
+}
+.platform-page .section-7 > div.section-wrap > p {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 20px;
+	max-width: 720px;
+	padding-top: 10px;
+}
+.work-together > a {
+	background: transparent;
+	padding: 5px 15px;
+	border-radius: 15px;
+	color: #fff;
+	text-decoration: none;
+	border: 3px solid #fff;
+	border-radius: 50px;
+	height: 50px;
+	padding: 0px;
+	line-height: 50px;
+	width: 240px;
+}
+.work-together > a:hover {
+	color: #2487c9;
+	background: #fff;
+	text-decoration: none;
+	cursor: pointer;
+	        -o-transition:.3s;
+  -ms-transition:.3s;
+  -moz-transition:.3s;
+  -webkit-transition:.3s;
+  transition:.3s;
+}
+.platform-footer.bc .work-together > a:hover {
+	color: #00a9c9;
+	        -o-transition:.3s;
+  -ms-transition:.3s;
+  -moz-transition:.3s;
+  -webkit-transition:.3s;
+  transition:.3s;
+}
+.channeladvisor .section-2 > div.section-wrap {
+	max-width: 960px;
+	margin: 0 auto;
+	display: block;
+	width: 100%;
+}
+.section-2.cf > div.section-wrap > .sub-header {
+	padding-top: 60px;
+	font-size: 48px !important;
+}
+.channeladvisor .section-2 > div.section-wrap > p {
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+	max-width: 720px;
+	font-size: 20px;
+	line-height: 24px;
+}
+.channeladvisor .section-2 > div > ul > li > a {
+	font-weight: 700;
+	color: #2487c9;
+	text-align: left;
+	display: inline-block;
+	max-width: 430px;
+	float: left;
+	position: relative;
+	width: 100%;
+}
+.channeladvisor .section-2 > div > ul > li > p {
+	width: calc(100% - 210px);
+	float: left;
+	text-align: left;
+	max-width: 430px;
+}
+.channeladvisor .section-2 > div > ul > li > span {
+	width: calc(100% - 210px);
+	float: left;
+	font-weight: 600;
+	font-size: 30px;
+	margin-top: 20px;
+	text-align: left;
+	max-width: 430px;
+}
+.what-makes-us-diztinct .site-wrap {
+	max-width: 960px;
+	margin: auto;
+}
+.what-makes-us-diztinct > div > .left-70 > p {
+	font-size: 24px;
+	text-align: left;
+}
+.platform-page .section-6 p {
+	text-align: center;
+	width: 100%;
+	margin: 10px auto 20px;
+	max-width: 720px;
+	font-size: 20px;
+	line-height: 24px;
+}
+.what-makes-us-diztinct > div > .right-30 > a {
+	padding: 15px 40px 12px;
+	border-radius: 50px;
+	font-size: 20px;
+	font-weight: 600;
+	border: 3px solid #fff;
+}
+.what-makes-us-diztinct > div > .right-30 > a:hover {
+	background: #fff;
+	color: #e5343a;
+	        -o-transition:.3s;
+  -ms-transition:.3s;
+  -moz-transition:.3s;
+  -webkit-transition:.3s;
+  transition:.3s;
+}
+.ebay .left h4 {
+	margin-top: 0px !important;
+	margin-bottom: 0px;
+}
+#links1, #links2, #links3, #links4, #links5, #links6, #links7, #links8, #links9, #links10 {
+    float: left;
+    width: calc(50% - 10px);
+    margin-bottom:20px;
+}
+#links1, #links3, #links5, #links7, #links9 {
+    margin-right: 20px;
+}
+.overlay-container > .view-project {
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    border: 3px solid #fff;
+    border-radius: 50px;
+    padding: 0px;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    max-width: 200px;
+ }
+ #name, #email, #number {
+  width: calc(33% - 50px);
+}
+div.call-email-quote > ul > li > a.linked-phone, div.call-email-quote > ul > li > a.linked-email, div.call-email-quote > ul > li > a.linked-quote{
+	max-width:180px;
+}
+div.call-email-quote > ul > li > p{
+	height:70px;
+}
+
+
+
+
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.platform-list > li > a > p {
+		padding: 0px 20px;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1045px) {
+
+  div.call-email-quote > ul > li > p {
+    height: 35px;
+  }
+  div.call-email-quote > ul > li > span {
+    display: block;
+    height: 25px;
+  }
+
+
+}
+
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

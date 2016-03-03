@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <title>Request a quote from Diztinct, Inc.</title>
+	  <meta name="description" content="Get a free quote from Diztinct for your ecommerce project on Bigcommerce, Shopify, Magento, ChannelAdvisor or eBay.">
+	  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	  <link rel="icon" type="image/png" href="img/diz-fav.png" />
+	  <script src="https://use.typekit.net/epo2kfr.js"></script>
+	  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+	  <link rel="stylesheet" type="text/css" href="../styles/styles.css">
+	  <link rel="stylesheet" type="text/css" href="styles/charlie.css">
+	  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-3187441-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+	</head>
+	<body>
+	<div class="mobile-menu-drawer special_path">
+
+		<?php include $_SERVER['DOCUMENT_ROOT']."/includes/mobile-menu.php"; ?>
+
+	</div>
+
+	<div class="site-wrap">
+    <header>
+	    
+	    <?php include $_SERVER['DOCUMENT_ROOT']."/includes/header.php"; ?>
+
+	</header>
+
+	<div class="full-container quote"> <!-- begin full container -->
+
+			<div class="quote-request">
+				<h1>Quote request form.</h1>
+				<h2>Please fill out the form below to receive a price quote.</h2>
+			</div>
+
+	<div class="row">
+		<div>
+    		
+    		<form role="form" id="contactForm">
+     
+
+			<img src="../img/quote-icon.png" alt="" class="quote-img">
+		
+			<div class="row quote-form-div">
+
+				<h5>Contact Information</h5>
+	            
+	                <input type="text" class="form-control" id="name" placeholder="Name" required>
+	            
+	            
+	                <input type="email" class="form-control" id="email" placeholder="Email" required>
+	            
+	            
+	                <input type="text" class="form-control" id="number" placeholder="Phone Number" required>
+	            
+				<h5>Which platform or service to you need?</h5>
+	           	<ul class="project-type">
+	            	<li>Bigcommerce</li>
+	            	<li>Magento</li>
+	            	<li>Shopify</li>
+	            	<li>eBay</li>
+	            	<li>Search Engine Marketing</li>
+	            	<li>Other, Specify Below</li>
+		        </ul>
+	           	<div class="form-group">
+	                <input type="hidden" class="form-control" id="project" placeholder="project">
+	            </div>
+
+	           	<div class="form-group">
+		            <h5>Any specific details about your project?</h5>
+		            <textarea id="message" class="form-control" rows="5" placeholder="Please give a brief explanation of you project. Please provide links to examples if applicable." required></textarea>
+	        	</div>
+
+	            <h5>Do you have a budget in mind?</h5>
+	            <ul class="project-cost">
+	            	<li>Under 5K</li>
+	            	<li>5K - 10K</li>
+	            	<li>10K - 15K</li>
+	            	<li>15K - 25K</li>
+	            	<li>Over 25K</li>
+	            	<li>Not Sure</li>
+	            </ul>
+	           	<div class="form-group">
+	                <input type="hidden" class="form-control" id="cost" placeholder="cost">
+	            </div>
+
+            	<h5>Do you have an expected timeline for this project?</h5>
+	            <ul class="project-timeline">
+	            	<li>Rush Job</li>
+	            	<li>1-2 Months</li>
+	            	<li>3+ Months</li>
+	            </ul>
+	           	<div class="form-group">
+	                <input type="hidden" class="form-control" id="time" placeholder="timeline">
+	            </div>
+
+	            <h5>We look forward to potentially working with you!</h5>
+	        </div>
+
+	        <button type="submit" id="form-submit" class="btn btn-success btn-lg pull-right ">Submit This Form</button>
+
+			<div id="msgSubmit" class="h3 text-center hidden">Message Submitted!<br> We have received your quote request, and you will be hearing from us within 24-48 hours! If you need to speak to someone sooner, please call or email us.<br><a href="/">Click here</a> to go back to the homepage.</div>
+
+			 </form>
+		</div>
+
+	<footer class="quote">
+
+		<?php include $_SERVER['DOCUMENT_ROOT']."/includes/footer.php"; ?>
+
+    </footer>
+
+  </div> <!-- end full container -->
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="../scripts/app.js"></script>
+</body>
+</html>

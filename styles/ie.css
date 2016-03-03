@@ -1,0 +1,31 @@
+@media only screen and (min-width : 768px) {
+	.mb-pro{
+		top:270px;
+		bottom:auto;
+	}
+}
+@media only screen and (min-width : 790px) {
+	.mb-pro{
+		bottom:auto;
+	}
+}
+@media only screen and (min-width : 820px) {
+	.mb-pro{
+		bottom:auto;
+	}
+}
+@media only screen and (min-width : 850px) {
+	.mb-pro{
+		bottom:auto;
+	}
+}
+@media only screen and (min-width : 880px) {
+	.mb-pro{
+		bottom:auto;
+	}
+}
+@media only screen and (min-width : 992px) {
+	.mb-pro{
+		bottom:auto;
+	}
+}
