@@ -7,16 +7,19 @@
 	  <link rel="canonical" href="http://<?php echo $_SERVER['HTTP_HOST']; ?><?php echo parse_url( $_SERVER['REQUEST_URI'], PHP_URL_PATH ); ?>" />
 	  <link rel="icon" type="image/png" href="img/diz-fav.png" />
 	  <link rel="stylesheet" type="text/css" href="styles/styles.css">
-	  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	  
+		<script>
 
-  ga('create', 'UA-3187441-1', 'auto');
-  ga('send', 'pageview');
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-</script>
+		ga('create', 'UA-3187441-1', 'auto');
+		ga('send', 'pageview');
+
+		</script>
+
 	</head>
 	<body>
 	<div class="mobile-menu-drawer">
@@ -40,7 +43,7 @@
 			<section class="section-1 cf">
 				
 				<div class="right">
-					<img src="../img/1st-stencil_03.png" class="stencil-promo" alt="First custom Bigcommerce Stencil Store">
+					<!-- <img src="../img/1st-stencil_03.png" class="stencil-promo" alt="First custom Bigcommerce Stencil Store"> -->
 					<img src="../img/bc-topproj.png" class="full-browser" alt="Custom Bigcommerce design on Stencil for Golfetail">
 				</div>
 
@@ -152,24 +155,6 @@
 		            </div>
 		        </div>
 			</section>
-
-			<!-- <section class="section-6">
-				<div class="section-wrap">
-					<h4>Clients you may know</h4>
-					<p>For over 11 years, Diztinct has helped ecommerce websites thrive. We combine our extensive ecommerce expertise and best practices to design.</p>
-					<ul class="brand-list">
-						<li><img src="img/brands_38.jpg" alt="QVC"></li>
-						<li><img src="img/brands_40.jpg" alt="Gazelle"></li>
-						<li><img src="img/brands_42.jpg" alt="Dickies"></li>
-						<li><img src="img/brands_44.jpg" alt="Golfetail"></li>
-						<li><img src="img/brands_50.jpg" alt="MetroShoe Warehouse"></li>
-						<li><img src="img/brands_51.jpg" alt="Clorox"></li>
-						<li><img src="img/brands_53.jpg" alt="Dooney & Burke"></li>
-						<li><img src="img/brands_54.jpg" alt="Crocs"></li>
-					</ul>
-				</div>
-			</section> -->
-
 				
 			<section class="section-7 cf">
 		        <div class="section-wrap">
@@ -178,7 +163,7 @@
 		        </div>
 		        <div class="proj cf">
 		          <div class="p-1 right">
-		            <img src="img/bc-gaz.png" alt="">
+		            <img src="img/bc-gazelle.jpg" alt="">
 		          </div>
 		           <div class="section-wrap">
 		            <div class="project-1">
@@ -194,7 +179,7 @@
 		        <div class="proj cf">
 		          
 		          <div class="p-2 left">
-		            <img src="img/bc-golfetail.png" alt="">
+		            <img src="img/bc-golfetail.jpg" alt="">
 		          </div>
 
 		          <div class="section-wrap">
@@ -212,7 +197,7 @@
 		        <div class="proj cf">
 		          
 		          <div class="p-3 right">
-		            <img src="img/bc-hg.png" alt="">
+		            <img src="img/bc-hinsongayle.jpg" alt="">
 		          </div>
 
 		          <div class="section-wrap">
@@ -243,9 +228,22 @@
 	    </footer>
 
   	</div> <!-- end full container -->
-   <script src="https://use.typekit.net/epo2kfr.js"></script>
-	  <script>try{Typekit.load({ async: true });}catch(e){}</script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script type="text/javascript" src="../scripts/app.js"></script>
+   	<script src="https://use.typekit.net/epo2kfr.js"></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+	<script type="text/javascript">
+	// $(function(){
+	// 	$.ajax({
+	// 	    url:'/styles/styles.css',
+	// 	    type:'get',
+	// 	    success:function(css){
+	// 	        $('html').append('<style>'+css+'</style>');
+	// 	    }
+	// 	});
+	// })
+	</script>
+
+	<script type="text/javascript" src="../scripts/app.js"></script>
 </body>
 </html>
